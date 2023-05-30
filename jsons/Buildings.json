@@ -1235,7 +1235,22 @@
 			"[+2 Science] from every [Early Scientist]", "[Free Technology]"
 		],
 		"requiredTech": "Aesthetics"
-	}
+	},
+        { 
+                 "name": "Olympic Games", 
+                 "culture": 3, 
+                 "happiness": 15, 
+                 "cost": 1100, 
+                 "isWonder": true, 
+                 "requiredTech": "Sport", 
+                 "specialistSlots": { 
+                         "Early Entertainer": 2 
+                 }, 
+                 "uniques": [ 
+                         "[+2 Culture] from every [Early Entertainer]", 
+                         "[+2 Happiness] from every [Early Entertainer]" 
+                 ] 
+         }
 
 
 
