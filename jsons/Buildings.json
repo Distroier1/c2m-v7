@@ -1375,16 +1375,16 @@
                  "requiredTech": "Stone Roads" 
   
          },
-/*
+
 {
 		"name": "Port",
 		"gold": 5,
   "production": 5,
 		"cost": 850,
-		"uniques": [ "[+5]% [Food] [in this city]", [ "[+5]% [Gold] [in this city]", "Must be next to [Coast]" ],
+		"uniques": [ "[+5]% [Food] [in this city]", "[+5]% [Gold] [in this city]", "Must be next to [Coast]" ],
 		"requiredTech": "Sea Trade"
 	}
-*/
+
   
          
 
