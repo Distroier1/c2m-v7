@@ -1250,7 +1250,47 @@
                          "[+2 Culture] from every [Early Entertainer]", 
                          "[+2 Happiness] from every [Early Entertainer]" 
                  ] 
-         }
+         },
+        { 
+                 "name": "Gymnasium", 
+                 "culture": 3, 
+                 "science": 3, 
+                 "happiness": 3, 
+                 "cost": 650, 
+  
+                 "requiredTech": "Sport" 
+  
+         },
+        { 
+                 "name": "Theatre", 
+                 "culture": 5,
+                 "happiness": 5, 
+                 "cost": 650, 
+  
+                 "requiredTech": "Drama" 
+  
+         },
+        { 
+                 "name": "Agora", 
+                 "culture": 3, 
+                 "gold": 3, 
+                 "production": 3,
+                 "science": 3,
+                 "happiness": 3, 
+                 "cost": 800, 
+  
+                 "requiredTech": "Voting" 
+  
+         },
+        { 
+                 "name": "Lyceum", 
+                 "culture": 3,
+                 "science": 5, 
+                 "cost": 800, 
+                 "uniques": [ "[+5]% [Science] [in this city]"]
+                 "requiredTech": "Voting" 
+  
+         },
 
 
 
