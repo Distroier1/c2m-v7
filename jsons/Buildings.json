@@ -1215,7 +1215,7 @@
 		"requiredTech": "Chinese Philosophy"
 	},
 	{
-		"name": "Sun Tzu War Academy7",
+		"name": "Sun Tzu War Academy",
 		"culture": 3,
 		"science": 3,
 		"cost": 1750,
@@ -1224,6 +1224,17 @@
 			"[+2 Science] from every [Early Scientist]", "New [Melee] units start with [20] Experience [in this city]"
 		],
 		"requiredTech": "Chinese Philosophy"
+	},
+{
+		"name": "Great Library",
+		"culture": 5,
+		"science": 15,
+		"cost": 1500,
+		"isWonder": true,
+		"uniques": [
+			"[+2 Science] from every [Early Scientist]", "[Free Technology]"
+		],
+		"requiredTech": "Aesthetics"
 	}
 
 
