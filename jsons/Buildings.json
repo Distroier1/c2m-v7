@@ -1371,7 +1371,7 @@
                  "gold": 5,
                  "science": 3, 
                  "cost": 850, 
-                 "uniques": [ "[+10]% [Gold] [in this city]"]
+                 "uniques": [ "[+10]% [Gold] [in this city]"],
                  "requiredTech": "Stone Roads" 
   
          },
@@ -1384,9 +1384,6 @@
 		"requiredTech": "Sea Trade"
 	}
   
-         
-
-
-
+         
 
 ]
