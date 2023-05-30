@@ -1,4 +1,4 @@
-[
+use[
 	// Paleolithic Era
 
 	// Always available
@@ -1256,7 +1256,8 @@
                  "culture": 3, 
                  "science": 3, 
                  "happiness": 3, 
-                 "cost": 650, 
+                 "maintenance": 7,
+                 "cost": 600, 
   
                  "requiredTech": "Sport" 
   
@@ -1265,8 +1266,8 @@
                  "name": "Theatre", 
                  "culture": 5,
                  "happiness": 5, 
-                 "cost": 650, 
-  
+                 "cost": 600, 
+                 "maintenance": 5,
                  "requiredTech": "Drama" 
   
          },
@@ -1277,8 +1278,8 @@
                  "production": 3,
                  "science": 3,
                  "happiness": 3, 
-                 "cost": 800, 
-  
+                 "cost": 700, 
+                 
                  "requiredTech": "Voting" 
   
          },
@@ -1286,13 +1287,85 @@
                  "name": "Lyceum", 
                  "culture": 3,
                  "science": 5, 
-                 "cost": 800, 
+                 "cost": 700, 
+                 "maintenance": 7,
                  "uniques": [ "[+5]% [Science] [in this city]"]
                  "requiredTech": "Voting" 
   
          },
-
-
+        { 
+                 "name": "The Colossus", 
+                 "culture": 3, 
+                 "production": 3, 
+                 "gold": 7, 
+                 "cost": 1500, 
+                 "isWonder": true, 
+                 "requiredTech": "Sea Trade", 
+                 "specialistSlots": { 
+                         "Early Merchant": 2 
+                 }, 
+                 "uniques": [ "[+1 Production] from every [Early Merchant]", "[+3 Gold] from every [Early Merchant]", "Must be next to [Coast]" ] 
+  
+         },
+{ 
+                 "name": "Waterwheel", 
+                 "production": 5,
+                 "food": 5, 
+                 "cost": 850, 
+                 "maintenance": 7,
+                 "uniques": [ "[+5]% [Production] [in this city]"]
+                 "requiredTech": "Waterwheels" 
+  
+         },
+{ 
+                 "name": "Villa", 
+                 "culture": 5,
+                 "happiness": 5, 
+                 "cost": 800, 
+                 "maintenance": 7,
+                 "specialistSlots": { "Noble": 2 }
+                 "uniques": [ "[+5]% [Gold] [in this city]"]
+                 "requiredTech": "Senate" 
+  
+         },
+{
+		"name": "Cathedral",
+		"culture": 3,
+		"happiness": 5,
+		"science": 3,
+		"faith": 5,
+  "gold": 5,
+		"specialistSlots": {
+			"Early Entertainer": 1
+		},
+		"cost": 1000,
+		"uniques": [ "[+5]% [Faith] [in this city]" ],
+		"requiredTech": "Theology"
+	},
+{
+		"name": "Pagoda",
+		"culture": 5,
+		"happiness": 5,
+		"science": 8,
+		"faith": 5,
+		"specialistSlots": {
+			"Early Entertainer": 1
+		},
+		"maintenance": 7,
+		"cost": 1000,
+		"uniques": [ "[+5]% [Faith] [in this city]" ],
+		"requiredTech": "Chinese Philosophy"
+	},
+  { 
+                 "name": "Classical Academy", 
+                 "culture": 5,
+                 "science": 10, 
+                 "cost": 1000, 
+                 "maintenance": 10,
+                 "uniques": [ "[+5]% [Science] [in this city]"]
+                 "requiredTech": "Geometry" 
+  
+         },
 
 
 
