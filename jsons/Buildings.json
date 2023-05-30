@@ -1384,18 +1384,7 @@
 		"uniques": [ "[+5]% [Food] [in this city]", "[+5]% [Gold] [in this city]", "Must be next to [Coast]" ],
 		"requiredTech": "Sea Trade"
 	}
-{
-		"name": "Cheat Hut",
-		"science": 10,
-		"production": 5,
-		"happiness": 3,
-		"cost": 10,
-		"requiredTech": "Language",
-		"uniques": [
-			"Destroyed when the city is captured",
-			"Obsolete with [Writing]"
-		]
-	},
+
 
   
          
